@@ -33,8 +33,7 @@ jQuery(document).ready(function ($) {
             data: formData,
           })
             .done(function (data) {
-              console.log("🚀 ~ file: custom-script.js ~ line 36 ~ data", data)
-              let result = JSON.parse(data);
+              alert(JSON.parse(data));
             })
             .fail(function (data) {});
         }
