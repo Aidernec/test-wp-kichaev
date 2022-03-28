@@ -49,7 +49,9 @@ update_field( 'etazh', $floor, $new_post_id );
 
 $thumbnail_id = media_handle_upload( 'image', 0 );
 
-$tt = set_post_thumbnail( $new_post_id, $thumbnail_id );
+set_post_thumbnail( $new_post_id, $thumbnail_id );
 
-print_r( $tt );
+$result = intval( $new_post_id ) ? 'Объект недвижимости успешно добавлен!' : 'Что то пошло не так';
+
+echo wp_json_encode( $result );
 exit();
