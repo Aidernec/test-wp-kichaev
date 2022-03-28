@@ -1,0 +1,40 @@
+.cards__wrap .card-image img {
+  height: 276px;
+  object-fit: cover;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.single-realestate-image {
+  max-height: 500px;
+}
+
+.single-realestate-image img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.single-realestate-characteristics {
+  margin-left: 1px;
+}
+
+.single-realestate-characteristics div {
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.form-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
